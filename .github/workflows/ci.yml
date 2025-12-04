@@ -44,5 +44,6 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/iris-streamlit:latest
-            ghcr.io/${{ github.repository_owner }}/iris-streamlit:${{ github.sha }}
+            ghcr.io/tarikmercan/iris-streamlit:latest
+            ghcr.io/tarikmercan/iris-streamlit:${{ github.sha }}
+      
