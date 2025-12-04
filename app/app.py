@@ -50,7 +50,7 @@ go = st.button("Predict", use_container_width=True)
 if go:
     _, name, proba = predict([sepal_length, sepal_width, petal_length, petal_width])
 
-    left, right = st.columns([1, 2], vertical_alignment="center")
+    left, right = st.columns([1, 2])
     with left:
         st.markdown('<div class="card">', unsafe_allow_html=True)
         st.subheader("Result")
